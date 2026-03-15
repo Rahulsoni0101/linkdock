@@ -6,8 +6,42 @@
 
 @layer base {
   body {
-    @apply antialiased text-gray-900 bg-[#2665d6];
+    @apply antialiased text-gray-100 bg-[#030614];
     margin: 0;
     font-family: 'Outfit', sans-serif;
+  }
+}
+
+@layer utilities {
+  .glass-panel {
+    background-color: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(24px);
+    -webkit-backdrop-filter: blur(24px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
+  }
+
+  .glass-panel-heavy {
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(40px);
+    -webkit-backdrop-filter: blur(40px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 8px 32px 0 rgba(38, 101, 214, 0.1);
+  }
+
+  .text-glow {
+    text-shadow: 0 0 20px rgba(210, 232, 35, 0.4);
+  }
+
+  .text-glow-blue {
+    text-shadow: 0 0 30px rgba(38, 101, 214, 0.6);
+  }
+
+  .box-glow {
+    box-shadow: 0 0 40px rgba(210, 232, 35, 0.15), inset 0 0 20px rgba(210, 232, 35, 0.05);
+  }
+
+  .box-glow-blue {
+    box-shadow: 0 0 60px rgba(38, 101, 214, 0.2), inset 0 0 30px rgba(38, 101, 214, 0.1);
   }
 }

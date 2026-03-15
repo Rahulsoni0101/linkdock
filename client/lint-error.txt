@@ -1,0 +1,13 @@
+﻿
+> client@0.0.0 lint
+> eslint .
+
+
+C:\Users\rahul\OneDrive\Desktop\linkdock\client\src\components\Hero.jsx
+  2:10  error  'motion' is defined but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+
+C:\Users\rahul\OneDrive\Desktop\linkdock\client\src\components\Navbar.jsx
+  3:10  error  'motion' is defined but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+
+Γ£û 2 problems (2 errors, 0 warnings)
+
